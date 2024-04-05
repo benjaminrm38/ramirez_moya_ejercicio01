@@ -1,5 +1,11 @@
 
+.seccion_inicio{
+    background: rgba(217, 217, 217, 1);
+    width: 100vw;
+    height: 100vh;
 
+
+}
 .cabecera{
     margin: auto;
     display: flex;
@@ -7,12 +13,138 @@
     align-items: flex-end;
 
 }
+.logo{
+    
+    margin-left: 25px;
+    display: flex;
+    gap: 30px;
+
+}
+p{
+    color: aqua;
+}
+.seccion_inicio strong{
+    font-family: Calibri;
+    color: rgba(110,110,110,1);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39.06px;
+    text-align: left;
+    
+
+}
+.inicio{
+    width:100vw ;
+    height: 30vh ;
+    margin-left: 5%;
+}
+.inicio h1{
+    
+
+    
+    display: flex;
+    text-align: left;
+    width: 1024px;
+    height: 234px;
+    top: 307px;
+    left: 132px;
+    gap: 0px;
+    opacity: 0px;
+    
+
+    font-family: Calibri;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 117.19px;
+
+
+   color: rgba(110, 110, 110, 1);
+
+
+
+}
+.inicio h2{
+    display: flex;
+    font-family: Calibri;
+font-size: 40px;
+font-weight: 700;
+line-height: 48.83px;
+margin-left: 25px;
+text-align: left;
+color: rgba(110, 110, 110, 1);
+
+
+}
+
+.inicio span{
+    
+    font-family: Calibri;
+font-size: 40px;
+font-weight: 700;
+line-height: 48.83px;
+text-align: left;
+
+    color: aqua; 
+}
 .cabecera img{
     width: 20%;
 }
 
 .menu ul{
+    
     gap:  15px;
     display: flex;
+}
+.menu a:hover{
+    color: aqua;
+}
+.botones{
+    margin-top: 50px;
+    width:100%;
+height: 77px;
+top: 731px;
+left: 129px;
+gap: 0px;
+border-radius: 14px 0px 0px 0px;
+opacity: 0px;
+display: flex;
+gap: 25px;
+}
+
+.dudas{
+    background: rgba(0, 178, 227, 1);
+justify-content: start;
+    width: 258px;
+    height: 77px;
+    top: 731px;
+    left: 129px;
+    gap: 0px;
+    border-radius: 14px 0px 0px 0px;
+    opacity: 0px;
+    align-items: start;
+    border-radius: 14px;
+
+}
+.dudas p{
+    color: aliceblue;
+}
+
+.info{
+    background: rgba(0, 178, 227, 1);
+    justify-content: start;
+align-items: start;    
+width: 258px;
+    height: 77px;
+    top: 731px;
+    left: 129px;
+    gap: 0px;
+    border-radius: 14px 0px 0px 0px;
+    opacity: 0px;
+    color: aliceblue;
+    border-radius: 14px;
+}
+.info p{
+    color: aliceblue;
+
 }
 
