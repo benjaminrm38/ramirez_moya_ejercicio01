@@ -1,0 +1,227 @@
+
+.seccion_inicio{
+    background: rgba(217, 217, 217, 1);
+    width: 100vw;
+    height: 100vh;
+
+
+}
+.cabecera{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+.logo{
+    gap: 50px;
+    margin-left: 50px;
+    display: flex;
+    
+
+}
+p{
+    color: aqua;
+}
+.seccion_inicio strong{
+    font-family: Calibri;
+    color: rgba(110,110,110,1);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39.06px;
+    text-align: left;
+    
+
+}
+.inicio{
+    width:100vw ;
+    height: 30vh ;
+    margin-left: 5%;
+}
+.inicio h1{
+    
+
+    
+    display: flex;
+    text-align: left;
+    width: 1024px;
+    height: 234px;
+    top: 307px;
+    left: 132px;
+    gap: 0px;
+    opacity: 0px;
+    
+
+    font-family: Calibri;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 117.19px;
+
+
+   color: rgba(110, 110, 110, 1);
+
+
+
+}
+.inicio h2{
+    display: flex;
+    font-family: Calibri;
+font-size: 40px;
+font-weight: 700;
+line-height: 48.83px;
+margin-left: 25px;
+text-align: left;
+color: rgba(110, 110, 110, 1);
+
+
+}
+
+.inicio span{
+    
+    font-family: Calibri;
+font-size: 40px;
+font-weight: 700;
+line-height: 48.83px;
+text-align: left;
+
+    color: aqua; 
+}
+.cabecera img{
+    width: 20%;
+}
+
+.menu ul{
+    
+    gap:  15px;
+    display: flex;
+}
+.menu a:hover{
+    color: aqua;
+}
+.botones{
+    margin-top: 50px;
+    width:100%;
+height: 77px;
+top: 731px;
+left: 129px;
+gap: 0px;
+border-radius: 14px 0px 0px 0px;
+opacity: 0px;
+display: flex;
+gap: 25px;
+}
+
+.dudas{
+    background: rgba(0, 178, 227, 1);
+justify-content: start;
+    width: 258px;
+    height: 77px;
+    top: 731px;
+    left: 129px;
+    gap: 0px;
+    border-radius: 14px 0px 0px 0px;
+    opacity: 0px;
+    align-items: start;
+    border-radius: 14px;
+
+}
+.dudas p{
+    color: aliceblue;
+}
+
+.info{
+    background: rgba(0, 178, 227, 1);
+    justify-content: start;
+align-items: start;    
+width: 258px;
+    height: 77px;
+    top: 731px;
+    left: 129px;
+    gap: 0px;
+    border-radius: 14px 0px 0px 0px;
+    opacity: 0px;
+    color: aliceblue;
+    border-radius: 14px;
+}
+.info p{
+    color: aliceblue;
+
+}
+.cursos{
+    margin-top: 100px;
+    margin-bottom: 300px;
+    margin-left: 120px;
+    margin-right: 120px;
+    background: rgba(255, 255, 255, 1);
+    height: 60%;
+    width: 100%;
+    
+    margin: 0 0 20px 0;
+    width: 100%;
+    height: 60%;
+    border: 2px solid #CCC;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    justify-content: center;
+    
+    
+   
+
+}
+
+.titulo_curso h1{
+    display: grid;
+    grid-column: 1 / span 2;
+    grid-row: 1 / 2;
+    color:  rgba(110, 110, 110, 1);
+    font-family: Calibri;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 117.19px;
+    text-align: left;
+    
+    
+
+    
+}
+.dam{
+    display: grid;
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+    padding-top: 50px;
+    
+    max-width: 60%;
+    max-height: 100%;
+    position: relative;
+    
+    text-align: center;
+    padding-right: 7%;
+    border-radius: 19px;
+    background-color: blueviolet;
+    
+}
+.texto-encima{
+    color: white;
+    position: absolute;
+    top: 90%;
+    font-family: Calibri;
+    font-size: 28px;
+    font-weight: 20%;
+    line-height: 100%;
+    text-align: left;    
+    
+}
+.integracion-social{
+    grid-column: 2 / 1;
+    grid-row: 2 / 2;
+    background-color: aqua;
+    max-width: 20%;
+    max-height: 100%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    border-radius: 19px;
+}
+
